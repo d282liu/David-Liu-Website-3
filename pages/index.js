@@ -2,7 +2,7 @@ import { Container, Box, Image, Heading, Grid, List, ListItem, Link, Button, Ico
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import Intro from '../components/Intro'
+import Intro from '../components/intro'
 import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
 import { MdEmail } from 'react-icons/md'
 import { AiFillFilePdf } from 'react-icons/ai'
