@@ -69,7 +69,7 @@ function HomePage() {
                     </Heading>
                     <List pl={2}>
                     <ListItem>
-                        <Link href="/images/davidliu.jpg" download target="_blank">
+                        <Link href="/files/resume.pdf" download target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
