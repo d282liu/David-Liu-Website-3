@@ -12,6 +12,7 @@ function HomePage() {
 
     return (
         <Layout>
+            <title>DAVID LIU</title>
             <Container
                 mt={{base:4}}
             >
