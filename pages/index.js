@@ -92,7 +92,7 @@ function HomePage() {
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href="linkedin.com/in/davidliu13" target="_blank">
+                        <Link href="https://www.linkedin.com/in/davidliu13/" target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
@@ -103,13 +103,13 @@ function HomePage() {
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href="mailto:d282liu@uwaterloo.ca" target="_blank">
+                        <Link href="mailto:david.liu2@uwaterloo.ca" target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
                             leftIcon={<Icon as={MdEmail} />}
                         >
-                            @d282liu@uwaterloo.ca
+                            @david.liu2@uwaterloo.ca
                         </Button>
                         </Link>
                     </ListItem>
