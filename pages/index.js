@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import Intro from '../components/intro'
-import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoCodeSlash } from 'react-icons/io5'
 import { MdEmail } from 'react-icons/md'
 import { AiFillFilePdf } from 'react-icons/ai'
 
@@ -61,7 +61,7 @@ function HomePage() {
                         Thank you for stopping by! I am an enthusiastic, team-oriented and curious software engineer. I specialize in using JavaScript libraries and frameworks to develop fully functional web and desktop applications. Learn more about my credentials below by checking out my contacts!
                     </Paragraph>
                     <Paragraph>
-                        While I am not being a nerd (joking, coding is very cool) I enjoy carrying teams in various video games, swimming with friends, destroying those same friends at badminton, taking banger photos and playing music! I also work part time as a bubble tea engineer at Gong Cha, so if you would like to meet, pop by for an iced QQ Peach Green tea with 50% sugar :) It's very good.
+                        While I am not being a nerd (joking, coding is very cool) I enjoy carrying teams in various video games, swimming with friends, destroying those same friends at badminton, taking banger photos and playing music! I also work part time as a bubble tea engineer at Gong Cha, so if you would like to meet, pop by for an iced QQ Peach Green tea with 50% sugar :) It's very yummy.
                     </Paragraph>
                 </Section>
                 <Section delay={0.3}>
@@ -70,7 +70,7 @@ function HomePage() {
                     </Heading>
                     <List pl={2}>
                     <ListItem>
-                        <Link href="/files/resume.pdf" download target="_blank">
+                        <Link href="/files/DAVID LIU RESUME - SEPT 2022.pdf" download target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
@@ -87,7 +87,18 @@ function HomePage() {
                             colorScheme="teal"
                             leftIcon={<Icon as={IoLogoGithub} />}
                         >
-                            @d282liu
+                            Git: @d282liu
+                        </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href="https://devpost.com/david-liu742" target="_blank">
+                        <Button
+                            variant="ghost"
+                            colorScheme="teal"
+                            leftIcon={<Icon as={IoCodeSlash} />}
+                        >
+                            DevPost: @david-liu742
                         </Button>
                         </Link>
                     </ListItem>
@@ -98,7 +109,7 @@ function HomePage() {
                             colorScheme="teal"
                             leftIcon={<Icon as={IoLogoLinkedin} />}
                         >
-                            @davidliu13
+                            LinkedIn: @davidliu13
                         </Button>
                         </Link>
                     </ListItem>
@@ -109,7 +120,7 @@ function HomePage() {
                             colorScheme="teal"
                             leftIcon={<Icon as={MdEmail} />}
                         >
-                            @david.liu2@uwaterloo.ca
+                            Email: @david.liu2@uwaterloo.ca
                         </Button>
                         </Link>
                     </ListItem>
