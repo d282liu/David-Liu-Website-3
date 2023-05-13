@@ -70,7 +70,7 @@ function HomePage() {
                     </Heading>
                     <List pl={2}>
                     <ListItem>
-                        <Link href="/files/DAVID LIU RESUME - SEPT 2022.pdf" download target="_blank">
+                        <Link href="/files/David Liu Resume May 2023.pdf" download target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
