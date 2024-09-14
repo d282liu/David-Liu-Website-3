@@ -58,10 +58,12 @@ function HomePage() {
                     <Image src={prayerImg} ml={4} width={7} height={7} alt="logo" />
                     </Intro>                    
                     <Paragraph>
-                        Thank you for stopping by! I am an enthusiastic, team-oriented and curious software engineer. I specialize in using JavaScript libraries and frameworks to develop fully functional web and desktop applications. Learn more about my credentials below by checking out my contacts!
+                        Thank you for stopping by! I am an enthusiastic, team-oriented and curious software engineer. I have 2 years of experience working in backend and full stack roles, and am looking for new grad opportunities! Super excited to build cool stuff and get better at what I do. Learn more about my credentials below by checking out my contacts!
                     </Paragraph>
                     <Paragraph>
-                        While I am not being a nerd (joking, coding is very cool) I enjoy carrying teams in various video games, swimming with friends, destroying those same friends at badminton, taking banger photos and playing music! I also work part time as a bubble tea engineer at Gong Cha, so if you would like to meet, pop by for an iced QQ Peach Green tea with 50% sugar :) It's very yummy.
+                        While I am not being a nerd (not that there is nothing wrong with being a nerd!) I enjoy carrying teams in various video games, swimming with friends, destroying those same friends at badminton, playing table tennis in office (after completing work), 
+                        taking banger photos and playing music! I also work part time as a User Experience Evaluator and Quality Assurance Analyst at Google (I write Google Reviews for food spots, unpaid) so maybe if you would like to meet in person, reach out and maybe we can find 
+                        something yummy to eat! 
                     </Paragraph>
                 </Section>
                 <Section delay={0.3}>
@@ -70,7 +72,7 @@ function HomePage() {
                     </Heading>
                     <List pl={2}>
                     <ListItem>
-                        <Link href="/files/David Liu Resume Jan 2024.pdf" download target="_blank">
+                        <Link href="/files/David Liu Resume Sept 2024.pdf" download target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
