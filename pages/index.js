@@ -123,7 +123,7 @@ function HomePage() {
                             colorScheme="teal"
                             leftIcon={<Icon as={MdEmail} />}
                         >
-                            Email: @david.liu742@gmail.com
+                            Email: david.liu742@gmail.com
                         </Button>
                         </Link>
                     </ListItem>
