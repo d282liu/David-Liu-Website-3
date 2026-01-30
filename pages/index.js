@@ -48,7 +48,7 @@ function HomePage() {
                     </Box>
                 </Container>
                 <Box borderRadius="lg" bg={'whiteAlpha.100'} p={3} mb={6} mt={6} align="left">
-                    Systems Design Engineering Student @uWaterloo
+                    Software Development Engineer @ Amazon, UW SYDE 2025
                 </Box>
                 <Section delay={0.1}>
                     <Intro>
@@ -58,7 +58,8 @@ function HomePage() {
                     <Image src={prayerImg} ml={4} width={7} height={7} alt="logo" />
                     </Intro>                    
                     <Paragraph>
-                        Thank you for stopping by! I am an enthusiastic, team-oriented and curious software engineer. I have 2 years of experience working in backend and full stack roles, and am looking for new grad opportunities! Super excited to build cool stuff and get better at what I do. Learn more about my credentials below by checking out my contacts!
+                        Thank you for stopping by! I am an enthusiastic, team-oriented and curious software engineer who graduated from Sytems Design Engineering at the University of Waterloo!
+                        I have 2 years of experience working in backend and full stack roles, and am looking for new grad opportunities! Super excited to build cool stuff and get better at what I do. Learn more about my credentials below by checking out my contacts!
                     </Paragraph>
                     <Paragraph>
                         While I am not being a nerd (not that there is nothing wrong with being a nerd!) I enjoy carrying teams in various video games, swimming with friends, destroying those same friends at badminton, playing table tennis in office (after completing work), 
@@ -72,7 +73,7 @@ function HomePage() {
                     </Heading>
                     <List pl={2}>
                     <ListItem>
-                        <Link href="/files/David Liu Resume Sept 2024.pdf" download target="_blank">
+                        <Link href="/files/David Liu Resume Jan 2026.pdf" download target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
@@ -116,13 +117,13 @@ function HomePage() {
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href="mailto:david.liu2@uwaterloo.ca" target="_blank">
+                        <Link href="mailto:david.liu742@gmail.com" target="_blank">
                         <Button
                             variant="ghost"
                             colorScheme="teal"
                             leftIcon={<Icon as={MdEmail} />}
                         >
-                            Email: @david.liu2@uwaterloo.ca
+                            Email: @david.liu742@gmail.com
                         </Button>
                         </Link>
                     </ListItem>
